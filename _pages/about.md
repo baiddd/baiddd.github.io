@@ -8,6 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-### > Hello World!
 
-### > This is the website of Jiachuan
+```
+> Hello World!
+
+> I'm Jiachuan
+```
