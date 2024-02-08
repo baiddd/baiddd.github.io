@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jiachuan"
+title                    : "About me"
 title_separator          : "-"
 name                     : &name "Jiachuan"
 description              : &description "Postdoc in Deep learning-assisted bio-medical imaging"
@@ -82,7 +82,8 @@ analytics:
 author:
   name             : "Jiachuan"
   avatar           : "profile.jpg"
-  bio              : "Ph.D. in bio-informatics, postdoc in deep learning-assisted biological imaging"
+  bio              : "Ph.D. in bio-informatics 
+                      postdoc in deep learning-assisted biological imaging"
   location         : "Paris, France"
   employer         :
   pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
