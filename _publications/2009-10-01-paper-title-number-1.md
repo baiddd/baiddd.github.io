@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "ShareLoc — an open platform for sharing localization microscopy data"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2022-10-21
+venue: 'Nature Method'
+paperurl: 'https://www.nature.com/articles/s41592-022-01659-0'
+citation: 'Ouyang, W., Bai, J., Singh, M.K. et al. ShareLoc — an open platform for sharing localization microscopy data. Nat Methods 19, 1331–1333 (2022). https://doi.org/10.1038/s41592-022-01659-0'
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+[Paper here](https://www.nature.com/articles/s41592-022-01659-0)
+
+Recommended citation: Ouyang, W., Bai, J., Singh, M.K. et al. ShareLoc — an open platform for sharing localization microscopy data. Nat Methods 19, 1331–1333 (2022). https://doi.org/10.1038/s41592-022-01659-0
