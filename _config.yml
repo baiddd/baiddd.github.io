@@ -125,23 +125,6 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/BJiachuan"
 
-
-# Site Footer
-footer:
-  links:
-    - label: "Linkedin"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/jiachuan-bai/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/baiddd"
-    - label: "Orcid"
-      icon: "fab fa-orcid"
-      url: "https://orcid.org/0000-0001-5087-0344"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/BJiachuan"
-    
     
 
 
@@ -285,3 +268,10 @@ defaults:
       comments: # true
       share: true
       related: true
+      # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
