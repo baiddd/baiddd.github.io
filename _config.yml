@@ -106,9 +106,7 @@ analytics:
 author:
   name             : "Jiachuan BAI"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Ph.D. in **bioinformatics**
-                      
-                      Postdoc in **deep learning**"
+  bio              : "Ph.D. in **bioinformatics**"
   location         : "Paris, France"
   email            :
   links:
