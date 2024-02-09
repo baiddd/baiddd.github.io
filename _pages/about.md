@@ -18,12 +18,7 @@ redirect_from:
  ```
 Ever since my Master's studies in Signal and Image Processing, my professional journey has been rooted in leveraging computational tools for advancements in the field of biology and medicine. 
 
-Having a Ph.D. in bioinformatics at Institut Pasteur, where my journey in deep learning flourished.
-
-My passion lies in continuous learning and exploration of diverse inquiries within the bio-medical field. 
-
-I'm thrilled by the joy of applying my expertise to unravel solutions and contribute to biomedical outcomes.
-
+Having a Ph.D. in bioinformatics at Institut Pasteur, where my journey in deep learning flourished. My passion lies in continuous learning and exploration of diverse inquiries within the bio-medical field. 
 
 
 
