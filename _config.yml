@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Jiachuan"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jiachuan BAI"
+name                     : &name "Jiachuan BAI"
 description              : #"An amazing website."
 url                      : "https://baiddd.github.io" 
 baseurl                  : "/baiddd.github.io" 
