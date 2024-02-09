@@ -125,9 +125,7 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/BJiachuan"
 
-    
-
-
+  
 
 
 # Reading Files
@@ -192,13 +190,6 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
