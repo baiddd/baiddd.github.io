@@ -277,7 +277,7 @@ defaults:
       author_profile: true
     # _projects
   - scope:
-      path: "assets/"
+      path: ""
       type: projects
     values:
       layout: single
@@ -286,7 +286,7 @@ defaults:
       comments: true
   # _communications
   - scope:
-      path: "assets/"
+      path: ""
       type: communications
     values:
       layout: single
@@ -295,7 +295,7 @@ defaults:
       comments: true
   # _education
   - scope:
-      path: "assets/"
+      path: ""
       type: education
     values:
       layout: single
