@@ -20,7 +20,7 @@ en: &DEFAULT_EN
   minute_read                : "minute read"
   share_on_label             : "Share on"
   meta_label                 :
-  tags_label                 : "Tags:"
+  tags_label                 : "Skills:"
   categories_label           : "Categories:"
   date_label                 : "Updated:"
   comments_label             : "Leave a comment"
@@ -134,7 +134,7 @@ fr: &DEFAULT_FR
   minute_read                : "minute(s) de lecture"
   share_on_label             : "Partager sur"
   meta_label                 :
-  tags_label                 : "Tags :"
+  tags_label                 : "Compétences :"
   categories_label           : "Catégories :"
   date_label                 : "Mis à jour :"
   comments_label             : "Laisser un commentaire"
@@ -393,7 +393,7 @@ zh: &DEFAULT_ZH_HANS
   minute_read                : "分钟阅读"
   share_on_label             : "分享"
   meta_label                 :
-  tags_label                 : "标签:"
+  tags_label                 : "技能:"
   categories_label           : "分类:"
   date_label                 : "更新时间:"
   comments_label             : "留下评论"
