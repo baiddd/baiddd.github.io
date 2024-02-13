@@ -1,7 +1,7 @@
 ---
 title: "Metal temperature drift analysis in Grande Maison pivot"
 collection: projects
-permalink: /projects/2019-11-IP
+permalink: /projects/2018-06-hakathon
 tags:
   - IMahine learning 
   - Matlab
