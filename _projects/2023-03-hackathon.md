@@ -13,6 +13,9 @@ tags:
 
 ---
 
-The aim of this project is to enhance the binning algorithm "Serpentine" to denoise biological images without retraining 
-* Implemented the tool adapted to microscopy images
-* Executed scripts on remote GPU/CPU clusters
+The objective of this project is to improve the "Serpentine" binning algorithm for denoising biological images without the need for retraining.
+
+Achievements:
+
+- Adapted and implemented the tool specifically for microscopy images.
+- Successfully executed scripts on remote GPU/CPU clusters to enhance computational efficiency.

@@ -13,9 +13,12 @@ tags:
 
 ---
 
-The goal of this project is to identify the cause behind the temperature drift in a hydraulic production group through the utilization of artificial intelligence tools.
+The objective of this project is to pinpoint the root cause of temperature drift in a hydraulic production group by leveraging artificial intelligence tools.
 
-* Processed the database using R
-* Implemented the machine learning algorithm in Matlab
-* Collaborated with a multidisciplinary team
-* Grand prix du jury
+Achievements:
+
+- Processed the database using R for comprehensive analysis.
+- Implemented a machine learning algorithm
+
+Prize:
+- Grand prix du jury
