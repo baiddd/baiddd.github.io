@@ -1,3 +1,8 @@
+---
+title: "Education"
+permalink: /education
+author_profile: true
+---
 - **Bio-informatics**, Ph.D.
   - 2023, Complexité du vivant, Sorbonne Université/Institut Pasteur
 
