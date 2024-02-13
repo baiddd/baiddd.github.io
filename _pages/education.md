@@ -3,6 +3,9 @@ layout: archive
 title: "Education"
 permalink: /education
 author_profile: true
+redirect_from: 
+  - /education/
+  - /education.html
 ---
 - **Bio-informatics**, Ph.D.
   - 2023, Complexité du vivant, Sorbonne Université/Institut Pasteur
