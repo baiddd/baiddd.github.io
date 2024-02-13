@@ -1,13 +1,10 @@
 ---
 layout: archive
 title: "Communications"
-permalink: /communications
+permalink: /communications/
 author_profile: true
-redirect_from: 
-  - /communications/
-  - /communications.html
 ---
-
+{% include base_path %}
 Publication:
 - Ouyang, W.#, Bai, J.#, et al. (2022). ShareLoc — an open platform for sharing localization microscopy data, Nature Methods, 19(11), pp. 1331–1333. (# equal contribution)  [paper](https://www.nature.com/articles/s41592-022-01659-0)
 - Ito, T., Bai, J. and Ostry, D.J. (2020). Contribution of sensory memory to speech motor learning, Journal of Neurophysiology, 124(4), pp. 1103–1109. [paper](https://journals.physiology.org/doi/full/10.1152/jn.00457.2020)
