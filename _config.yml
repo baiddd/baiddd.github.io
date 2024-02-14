@@ -94,10 +94,13 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: G-FXBSKJK5LL          # Required - replace with your tracking id
-    anonymizeIp: false 
+# Analytics
+analytics:
+  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : G-FXBSKJK5LL
+    anonymize_ip         : # true, false (default)
+
 
 # Site Author
 author:
@@ -194,7 +197,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-analytics
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
