@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "Jiachuan"
+title: "Jiachuan BAI"
+excerpt: "Jiachuan BAI"
 author_profile: true
 redirect_from: 
   - /about/
