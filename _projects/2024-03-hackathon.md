@@ -8,15 +8,15 @@ tags:
   - Remote GPU/CPU clusters
 ---
 
-2024.03 Génopôle [D4Gen Hackathon](https://genopole.agorize.com/fr/challenges/d4gen-hackathon-2024/teams)Paris, France
+2024.03 Génopôle [D4Gen Hackathon](https://genopole.agorize.com/fr/challenges/d4gen-hackathon-2024/), Paris, France
 
 
 ---
 
-The objective of this project is to finetune LLM model to predict DNA sequences from annotation.
+The objective of this project is to finetune the LLM model to predict DNA sequences from annotation.
 
 Achievements:
 
-- Fine tuned the LLM TinyLlama model on paried annotated DNA sequences.
+- Fine-tuned the LLM TinyLlama model on paired annotated DNA sequences.
 - Executed scripts on remote GPU/CPU clusters.
 - First prize 
