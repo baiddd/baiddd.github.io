@@ -8,7 +8,7 @@ tags:
   - Remote GPU/CPU clusters
 ---
 
-2024.03 Génopôle [D4Gen Hackathon]()Paris, France
+2024.03 Génopôle [D4Gen Hackathon](https://genopole.agorize.com/fr/challenges/d4gen-hackathon-2024/teams)Paris, France
 
 
 ---
