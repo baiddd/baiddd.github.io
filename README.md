@@ -1,2 +1,2 @@
 # Jiachuan BAI
-here is my [webpage] (hrrps://baiddd.github.io)
+here is my [web page](https://baiddd.github.io)
