@@ -8,18 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-```
-  _   _      _ _                            _     _ _ 
- | | | | ___| | | ___   __      _____  _ __| | __| | |
- | |_| |/ _ \ | |/ _ \  \ \ /\ / / _ \| '__| |/ _` | |
- |  _  |  __/ | | (_) |  \ V  V / (_) | |  | | (_| |_|
- |_| |_|\___|_|_|\___/    \_/\_/ \___/|_|  |_|\__,_(_)
 
- ```
-Ever since my Master's studies in Signal and Image Processing, my professional journey has been rooted in leveraging computational tools for advancements in the field of biology and medicine. 
+Ever since my Master’s studies in Signal and Image Processing, my professional journey has been rooted in leveraging computational tools to advance biology and medicine. 
 
-Having a Ph.D. in bioinformatics at Institut Pasteur, where my journey in deep learning flourished. My passion lies in continuous learning and exploration of diverse inquiries within the bio-medical field. 
+During my Ph.D. in Bioinformatics at Institut Pasteur, my expertise in deep learning flourished, particularly through my work on deep learning-augmented super-resolution microscopy reconstruction.
 
+Today, as a Machine Learning Engineer at Withings, I bring over 6 years of machine learning and deep learning experience to the health-tech industry. My work focuses on designing and improving algorithms for physiological time-series data and deploying these models onto embedded systems using C/C++. 
+
+My passion lies in continuous learning and exploring diverse inquiries within the bio-medical field to translate complex data into impactful, real-world health solutions.
 
 
 
