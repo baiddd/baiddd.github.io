@@ -288,6 +288,9 @@ defaults:
       author_profile: true
       share: true
       comments: true
+      toc: true
+      toc_label: "Explore"
+      toc_sticky: true
   # _communications
   - scope:
       path: ""

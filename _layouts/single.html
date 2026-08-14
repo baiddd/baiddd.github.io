@@ -45,7 +45,15 @@ layout: default
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
-              {% include toc.html sanitize=true html=content h_min=toc_h_min h_max=toc_h_max class="toc__menu" skip_no_ids=true %}
+              {% if page.collection == "projects" %}
+                <ul class="toc__menu">
+                  {%- for link in site.data.navigation.main -%}
+                    <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+                  {%- endfor -%}
+                </ul>
+              {% else %}
+                {% include toc.html sanitize=true html=content h_min=toc_h_min h_max=toc_h_max class="toc__menu" skip_no_ids=true %}
+              {% endif %}
             </nav>
           </aside>
         {% endif %}
