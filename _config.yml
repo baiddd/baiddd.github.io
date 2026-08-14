@@ -20,13 +20,13 @@ title                    : "Jiachuan-BAI"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : &name "Jiachuan BAI"
-description              : #"An amazing website."
+description              : "Jiachuan BAI — Machine Learning Engineer specializing in deep learning for physiological time-series data and imaging."
 url                      : "https://baiddd.github.io" 
 baseurl                  : "/baiddd.github.io" 
 repository               : "baiddd/baiddd.github.io" 
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -86,17 +86,21 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/bio-photo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://www.linkedin.com/in/jiachuan-bai/"
+    - "https://github.com/baiddd"
+    - "https://orcid.org/0000-0001-5087-0344"
+    - "https://twitter.com/BJiachuan"
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom" — gtag.js is already hardcoded in _layouts/default.html
   google:
     tracking_id          : G-FXBSKJK5LL
     anonymize_ip         : # true, false (default)
@@ -105,8 +109,8 @@ analytics:
 # Site Author
 author:
   name             : "Jiachuan BAI"
-  avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Ph.D. in **bioinformatics**"
+  avatar           : "/assets/images/bio-photo.png"
+  bio              : "Ph.D. in **Bioinformatics** — deep learning for imaging and time series"
   location         : "Paris, France"
   email            :
   links:

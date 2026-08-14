@@ -2,6 +2,7 @@
 title: "Super-resolution microscopy image denoising"
 collection: projects
 permalink: /projects/2023-03-hackathon
+type: hackathon
 tags:
   - Image processing
   - Python

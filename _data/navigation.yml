@@ -1,12 +1,14 @@
 # main links
 main:
-  - title: "Projects"
-    url: /projects/
-  - title: "Communications"
-    url: /communications/
+  - title: "Experience"
+    url: /#experience
+  - title: "Hackathon"
+    url: /#hackathon-projects
+  - title: "Communication"
+    url: /#scientific-communication
   - title: "Education"
-    url: /education/
-  
+    url: /#education
+
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

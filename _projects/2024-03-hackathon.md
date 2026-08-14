@@ -2,6 +2,8 @@
 title: "Finetuning LLM model to prdict DNA sequence from annotation"
 collection: projects
 permalink: /projects/2024-03-hackathon
+type: hackathon
+prize: "First Prize"
 tags:
   - LLM finetuning
   - Python
