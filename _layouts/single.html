@@ -31,7 +31,7 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline">
+          {% if page.title and page.hide_title != true %}<h1 id="page-title" class="page__title p-name" itemprop="headline">
             <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
           </h1>{% endif %}
           {% include page__meta.html %}
@@ -40,10 +40,20 @@ layout: default
 
       <section class="page__content e-content" itemprop="text">
         {% if page.toc %}
+          {% assign toc_h_min = page.toc_h_min | default: 1 %}
+          {% assign toc_h_max = page.toc_h_max | default: 6 %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
-              {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}
+              {% if page.collection == "projects" %}
+                <ul class="toc__menu">
+                  {%- for link in site.data.navigation.main -%}
+                    <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+                  {%- endfor -%}
+                </ul>
+              {% else %}
+                {% include toc.html sanitize=true html=content h_min=toc_h_min h_max=toc_h_max class="toc__menu" skip_no_ids=true %}
+              {% endif %}
             </nav>
           </aside>
         {% endif %}

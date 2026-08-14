@@ -69,7 +69,7 @@ $(function() {
       contentClass: "active", // applied to the content
 
       // Nested navigation
-      nested: false, // if true, add classes to parents of active link
+      nested: true, // if true, add classes to parents of active link
       nestedClass: "active", // applied to the parent items
 
       // Offset & reflow
@@ -79,6 +79,18 @@ $(function() {
       // Event support
       events: true // if true, emit custom events
     });
+
+    // GA4: track which page section a visitor actually scrolls into,
+    // once per section per page load
+    if (typeof gtag === "function") {
+      var seenSections = {};
+      document.addEventListener("gumshoeActivate", function (event) {
+        var sectionName = event.detail.link.textContent.trim();
+        if (!sectionName || seenSections[sectionName]) return;
+        seenSections[sectionName] = true;
+        gtag("event", "section_view", { section_name: sectionName });
+      });
+    }
   }
 
   // add lightbox class to all image links
